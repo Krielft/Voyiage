@@ -1,0 +1,629 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.19f1 (c9714fde33b6) revision 13201743'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'fr' Physical Memory: 16085 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Users/aroma/Videos/voyiage/Voyiage/Voyiage
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+51479
+Successfully changed project path to: C:/Users/aroma/Videos/voyiage/Voyiage/Voyiage
+C:/Users/aroma/Videos/voyiage/Voyiage/Voyiage
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [7440] Host "[IP] 192.168.1.57 [Port] 0 [Flags] 2 [Guid] 3473347561 [EditorId] 3473347561 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [7440] Host "[IP] 192.168.1.57 [Port] 0 [Flags] 2 [Guid] 3473347561 [EditorId] 3473347561 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 130.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.19f1 (c9714fde33b6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/aroma/Videos/voyiage/Voyiage/Voyiage/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 with Max-Q Design (ID=0x1f9d)
+    Vendor:   NVIDIA
+    VRAM:     3965 MB
+    Driver:   30.0.15.1165
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56072
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003476 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 103.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.577 seconds
+Domain Reload Profiling:
+	ReloadAssembly (577ms)
+		BeginReloadAssembly (69ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (419ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (92ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (261ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (103ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (117ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004613 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\aroma\Videos\voyiage\Voyiage\Voyiage\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\aroma\Videos\voyiage\Voyiage\Voyiage\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 99.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.146 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1147ms)
+		BeginReloadAssembly (88ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (964ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (289ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (521ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (99ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (254ms)
+				ProcessInitializeOnLoadMethodAttributes (71ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5400 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 48 unused Assets / (0.8 MB). Loaded Objects now: 5854.
+Memory consumption went from 219.3 MB to 218.5 MB.
+Total: 3.357600 ms (FindLiveObjects: 0.382000 ms CreateObjectMapping: 0.216600 ms MarkObjects: 2.489000 ms  DeleteObjects: 0.269100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 791883.480593 seconds.
+  path: Assets/Environment/Art/Materials/GridBlue_01_Mat.mat
+  artifactKey: Guid(ff188f58422043f489060e28a5e4e0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Art/Materials/GridBlue_01_Mat.mat using Guid(ff188f58422043f489060e28a5e4e0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c99911363f1dcfb8011a9ca75607796c') in 0.857876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.089304 seconds.
+  path: Assets/Character/Animations/Jump--InAir.anim.fbx
+  artifactKey: Guid(063aa479676c4084ebf187660ca0a7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animations/Jump--InAir.anim.fbx using Guid(063aa479676c4084ebf187660ca0a7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58f2b66fd5b46759c02007c65114053e') in 0.019502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Voyiage asset synty/Probs origine PAS SUPPRIMER JAMAIS/Props/SM_Prop_Bed_Single_01.fbx
+  artifactKey: Guid(d91121491de5cf740a0243c898e2c102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voyiage asset synty/Probs origine PAS SUPPRIMER JAMAIS/Props/SM_Prop_Bed_Single_01.fbx using Guid(d91121491de5cf740a0243c898e2c102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0508d3fb038f5953ee5571170505b3b') in 0.038475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Voyiage asset synty/Probs origine PAS SUPPRIMER JAMAIS/Models/Buildings/SM_Icon_Key_01.fbx
+  artifactKey: Guid(e1561fc62d8f8bb45b35426ab913d57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voyiage asset synty/Probs origine PAS SUPPRIMER JAMAIS/Models/Buildings/SM_Icon_Key_01.fbx using Guid(e1561fc62d8f8bb45b35426ab913d57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5405ab8544dc2dcc6f6bc0b719992ebe') in 0.019750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Voyiage asset synty/Probs origine PAS SUPPRIMER JAMAIS/PolygonApocalypse/Models/SM_Generic_Small_Rocks_05.fbx
+  artifactKey: Guid(a57974244c8b16d4cbe586e625112205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voyiage asset synty/Probs origine PAS SUPPRIMER JAMAIS/PolygonApocalypse/Models/SM_Generic_Small_Rocks_05.fbx using Guid(a57974244c8b16d4cbe586e625112205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b45f87fbc621623b108c5331e47da61') in 0.017246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Voyiage asset synty/Probs origine PAS SUPPRIMER JAMAIS/Models/SM_Prop_ConcreteBag_Stack_03.fbx
+  artifactKey: Guid(cefb6ca612cd6cb4ea4d6b37a2ef532b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voyiage asset synty/Probs origine PAS SUPPRIMER JAMAIS/Models/SM_Prop_ConcreteBag_Stack_03.fbx using Guid(cefb6ca612cd6cb4ea4d6b37a2ef532b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14feafa71ccbaa5ed1bfd5853c93d3d2') in 0.017325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Character/Animations/Locomotion--Run_N_Land.anim.fbx
+  artifactKey: Guid(3c033631149b9c541bcf155cd94cccba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animations/Locomotion--Run_N_Land.anim.fbx using Guid(3c033631149b9c541bcf155cd94cccba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '657c5e286969afd2d525e3aa28713084') in 0.010260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Voyiage asset synty/Probs origine PAS SUPPRIMER JAMAIS/PolygonCity/Models/SM_Bld_Apartment_Stack_02.fbx
+  artifactKey: Guid(9722dd2ac8fdbbb4aa8de708ed3effa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voyiage asset synty/Probs origine PAS SUPPRIMER JAMAIS/PolygonCity/Models/SM_Bld_Apartment_Stack_02.fbx using Guid(9722dd2ac8fdbbb4aa8de708ed3effa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0915c209fbc716ee849fabc7eceadb62') in 0.017857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Voyiage asset synty/Probs origine PAS SUPPRIMER JAMAIS/Props/SM_Prop_Couch_05.fbx
+  artifactKey: Guid(f91ff59139e65ed40ba6e6e3912caf91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voyiage asset synty/Probs origine PAS SUPPRIMER JAMAIS/Props/SM_Prop_Couch_05.fbx using Guid(f91ff59139e65ed40ba6e6e3912caf91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcdf2e5697efc3a4b3bff64d45b10528') in 0.018989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Voyiage asset synty/Probs origine PAS SUPPRIMER JAMAIS/PolygonCity/Models/SM_Bld_Shop_04.fbx
+  artifactKey: Guid(df75d1a69c99b944998e075e30c98272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voyiage asset synty/Probs origine PAS SUPPRIMER JAMAIS/PolygonCity/Models/SM_Bld_Shop_04.fbx using Guid(df75d1a69c99b944998e075e30c98272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd17e1f5de7e17c708df1ee6dfb5880bb') in 0.025927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Voyiage asset synty/Probs origine PAS SUPPRIMER JAMAIS/PolygonCity/Models/SM_Bld_Shop_03.fbx
+  artifactKey: Guid(cabf262b9c587ab4cb3cb6dae282959b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voyiage asset synty/Probs origine PAS SUPPRIMER JAMAIS/PolygonCity/Models/SM_Bld_Shop_03.fbx using Guid(cabf262b9c587ab4cb3cb6dae282959b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e97c769bc6be159682792a8ffc265d0') in 0.021771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Voyiage asset synty/Probs origine PAS SUPPRIMER JAMAIS/Props/SM_Prop_BathroomSink_02.fbx
+  artifactKey: Guid(cd202495b5b288743aeef247a218048b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voyiage asset synty/Probs origine PAS SUPPRIMER JAMAIS/Props/SM_Prop_BathroomSink_02.fbx using Guid(cd202495b5b288743aeef247a218048b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70155c52df5f534ef5e42913f0c28b96') in 0.017282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Voyiage asset synty/Probs origine PAS SUPPRIMER JAMAIS/PolygonCity/Models/SM_Bld_Cover_01.fbx
+  artifactKey: Guid(c5d1b207bc56fc74aa36626309762e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voyiage asset synty/Probs origine PAS SUPPRIMER JAMAIS/PolygonCity/Models/SM_Bld_Cover_01.fbx using Guid(c5d1b207bc56fc74aa36626309762e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b17076c92bfd0bf8b468b869f8b7f123') in 0.017369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Environment/Art/Models/Ramp_100x100x200_Mesh.fbx
+  artifactKey: Guid(bfff06aaff363a847ad37bf592364e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Art/Models/Ramp_100x100x200_Mesh.fbx using Guid(bfff06aaff363a847ad37bf592364e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bead07a3557cfa429f66f329394c401') in 0.020794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Voyiage asset synty/Probs origine PAS SUPPRIMER JAMAIS/Models/Buildings/SM_Bld_House_DeckRail_01.fbx
+  artifactKey: Guid(55d7ef8dc6b70d447a315165be7419ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voyiage asset synty/Probs origine PAS SUPPRIMER JAMAIS/Models/Buildings/SM_Bld_House_DeckRail_01.fbx using Guid(55d7ef8dc6b70d447a315165be7419ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '026a0b06aa1252f8320b3c25e2144532') in 0.017653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Character/Animations/Locomotion--Run_N.anim.fbx
+  artifactKey: Guid(16114d403eabb53438de032c6f0d1deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Animations/Locomotion--Run_N.anim.fbx using Guid(16114d403eabb53438de032c6f0d1deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24834f50fdb7eac03f162a7df67d776f') in 0.011152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Voyiage asset synty/Probs origine PAS SUPPRIMER JAMAIS/Props/SM_Prop_BedsideTable_01.fbx
+  artifactKey: Guid(9ec0478f55d747c43b0537521c4ae66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voyiage asset synty/Probs origine PAS SUPPRIMER JAMAIS/Props/SM_Prop_BedsideTable_01.fbx using Guid(9ec0478f55d747c43b0537521c4ae66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce7763ffceee75e49e590b5639ad834a') in 0.023273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.033889 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIHBox.prefab
+  artifactKey: Guid(f7f5e36797cf0c1408561665c67b179b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIHBox.prefab using Guid(f7f5e36797cf0c1408561665c67b179b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9c3476a2f1cc54260bd4a40c1aab6a5') in 0.011125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Prefabs/PlayerArmature.prefab
+  artifactKey: Guid(64dce48905ffd9b4293e595fa6941544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerArmature.prefab using Guid(64dce48905ffd9b4293e595fa6941544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfe43d12e73237c439d2587a78419009') in 0.090186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Voyiage asset synty/nature/SM_Env_Tree_Cluster_02.prefab
+  artifactKey: Guid(09bd3888e45b2bb40b86f590ab6202da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voyiage asset synty/nature/SM_Env_Tree_Cluster_02.prefab using Guid(09bd3888e45b2bb40b86f590ab6202da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63dbe7520dd8bc8743b490c255290077') in 0.011961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Prefabs/NestedParentCapsule_Unpack.prefab
+  artifactKey: Guid(212907312655a4443a025a304442c17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NestedParentCapsule_Unpack.prefab using Guid(212907312655a4443a025a304442c17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27efe6e33d50cf8acec48623d0b0480a') in 0.638215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Prefabs/MainCamera.prefab
+  artifactKey: Guid(f6d148d888ffbf54b9afe9936dfaec1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MainCamera.prefab using Guid(f6d148d888ffbf54b9afe9936dfaec1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad40e6451ba0311791935850713c827a') in 0.009192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Voyiage asset synty/batiment/SM_Bld_Shop_03.prefab
+  artifactKey: Guid(612ac88e300ad694d864f2cc9c9857fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voyiage asset synty/batiment/SM_Bld_Shop_03.prefab using Guid(612ac88e300ad694d864f2cc9c9857fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cff3b7a387a12cd741cd1a063d788271') in 0.012549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIVector3.prefab
+  artifactKey: Guid(94afea5f242d72547979595ba963f335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIVector3.prefab using Guid(94afea5f242d72547979595ba963f335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9710be8179aa3b6249eeb20b14f8df4a') in 0.012002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIMessageBox.prefab
+  artifactKey: Guid(10a25524b0986f9488b430e2829bbbe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIMessageBox.prefab using Guid(10a25524b0986f9488b430e2829bbbe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6773da33362dc9958ccbd4e4112da9f1') in 0.009130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIRow.prefab
+  artifactKey: Guid(2d019437ff89b8d44949727731cd9357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIRow.prefab using Guid(2d019437ff89b8d44949727731cd9357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce57ecb18292cc34ced7e0b006bf6ee7') in 0.010060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Voyiage asset synty/chambre/SM_Bld_House_DeckRail_01.prefab
+  artifactKey: Guid(e61b4239eb437fc41a1e91283f696956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voyiage asset synty/chambre/SM_Bld_House_DeckRail_01.prefab using Guid(e61b4239eb437fc41a1e91283f696956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78c59d24985c18ffd204e1e7f7a0622f') in 0.013088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIToggleHistory.prefab
+  artifactKey: Guid(5088d0220f0c4df439cf06c5c270eacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIToggleHistory.prefab using Guid(5088d0220f0c4df439cf06c5c270eacb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c57e16cf5c2af6b78e46710b3c062bf') in 0.012099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Voyiage asset synty/chambre/SM_Env_Flower_01.prefab
+  artifactKey: Guid(7398985deee050a45ac3c0e2ee2b0226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voyiage asset synty/chambre/SM_Env_Flower_01.prefab using Guid(7398985deee050a45ac3c0e2ee2b0226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4a65bdf502a5695fa265fcf1c1afaff') in 0.012433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Prefabs/NestedParentArmature_Unpack.prefab
+  artifactKey: Guid(c708a3b79cd542b42bbfedb17e213bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NestedParentArmature_Unpack.prefab using Guid(c708a3b79cd542b42bbfedb17e213bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61de3e8b40694713d67e21b3dfd5a89f') in 0.096282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Voyiage asset synty/nature/SM_Env_Tree_Cluster_01.prefab
+  artifactKey: Guid(c948ce0805039cb4e8f4bb3a192494a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voyiage asset synty/nature/SM_Env_Tree_Cluster_01.prefab using Guid(c948ce0805039cb4e8f4bb3a192494a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f6584aac2549364e781aa6450d38b16') in 0.021370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Voyiage asset synty/batiment/SM_Bld_Apartment_Stack_03.prefab
+  artifactKey: Guid(6af8ab1fe0951864091f7b17de09d474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voyiage asset synty/batiment/SM_Bld_Apartment_Stack_03.prefab using Guid(6af8ab1fe0951864091f7b17de09d474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de61189d9bbaafd9c72c28ef3be27ced') in 0.015248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Voyiage asset synty/batiment/SM_Bld_Cover_01.prefab
+  artifactKey: Guid(e019b4c0996583844b4a15d65c41513f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voyiage asset synty/batiment/SM_Bld_Cover_01.prefab using Guid(e019b4c0996583844b4a15d65c41513f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60884516bb3df7238aca256e286e883e') in 0.011858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIPanel.prefab
+  artifactKey: Guid(daa46a58178a6ad41ae1ddc2dc7f856d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIPanel.prefab using Guid(daa46a58178a6ad41ae1ddc2dc7f856d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '296d42bfb7b9858abe674913924b7e02') in 0.015033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIUIntField.prefab
+  artifactKey: Guid(f22bcc84a5f4a1944b075a2c4ac71493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIUIntField.prefab using Guid(f22bcc84a5f4a1944b075a2c4ac71493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cd47025462b38ef01b07efe9780ef2f') in 0.009629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Voyiage asset synty/nature/SM_Generic_Small_Rocks_04.prefab
+  artifactKey: Guid(b764cd9d9523d6d42a55fbdc92951853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voyiage asset synty/nature/SM_Generic_Small_Rocks_04.prefab using Guid(b764cd9d9523d6d42a55fbdc92951853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c14b314028527a27c1d55a4e95fb815') in 0.012881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Voyiage asset synty/nature/SM_Generic_Small_Rocks_05.prefab
+  artifactKey: Guid(907c1134fd11749469288d734685f9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voyiage asset synty/nature/SM_Generic_Small_Rocks_05.prefab using Guid(907c1134fd11749469288d734685f9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34fbc74a97b1728f80c718dd4e789f33') in 0.010884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Prefabs/PlayerFollowCamera.prefab
+  artifactKey: Guid(a1a802ecaf6775746bb2a929fb554ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerFollowCamera.prefab using Guid(a1a802ecaf6775746bb2a929fb554ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90e61e12a384197eaffb1bd18c1881c8') in 0.008224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Voyiage asset synty/Deco ville/SM_Prop_Barrier_01.prefab
+  artifactKey: Guid(85d22d700a47bb14ebf15fa0a02d91ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voyiage asset synty/Deco ville/SM_Prop_Barrier_01.prefab using Guid(85d22d700a47bb14ebf15fa0a02d91ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6454c31296e9fc149c8ca86c4c2751ba') in 0.011231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIValue.prefab
+  artifactKey: Guid(dc0f88987826e6e48b1fe9c7c2b53a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIValue.prefab using Guid(dc0f88987826e6e48b1fe9c7c2b53a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62cd83d020217a322d52182a59c78acf') in 0.011014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIVector4.prefab
+  artifactKey: Guid(d47f009476100f545971a81ede14c750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIVector4.prefab using Guid(d47f009476100f545971a81ede14c750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7acc4f2647c5c42da98b76a6d8bf81b7') in 0.012034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Environment/Prefabs/Ramp_Prefab.prefab
+  artifactKey: Guid(8a7437817844dce4894b049de73b75f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Prefabs/Ramp_Prefab.prefab using Guid(8a7437817844dce4894b049de73b75f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '778fc0a2503c7253942d8f41b8e38ca5') in 0.017286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Voyiage asset synty/chambre/SM_Prop_Art_Standing_01.prefab
+  artifactKey: Guid(027d1bbfc0117e548af1e082e48edf48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voyiage asset synty/chambre/SM_Prop_Art_Standing_01.prefab using Guid(027d1bbfc0117e548af1e082e48edf48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2984a959bed14ae7d4e15862270b856') in 0.012284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIVector2.prefab
+  artifactKey: Guid(326f7c58aed965d41bf7805a782d1e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIVector2.prefab using Guid(326f7c58aed965d41bf7805a782d1e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c95b7e9acf9fd693be0dd417bed8ace6') in 0.010412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIVBox.prefab
+  artifactKey: Guid(ca3e294656861a64b8aeeb9f916da0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIVBox.prefab using Guid(ca3e294656861a64b8aeeb9f916da0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc37553e7b51b559be0ace4b653a1aad') in 0.008332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Prefabs/PlayerCapsule.prefab
+  artifactKey: Guid(2553cec8fdb3eb643bbe9f2ec880c472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerCapsule.prefab using Guid(2553cec8fdb3eb643bbe9f2ec880c472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f99dc381eec43ec4893b6c4e5bf054ea') in 0.015178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Voyiage asset synty/batiment/SM_Bld_Shop_04.prefab
+  artifactKey: Guid(637f2c8f6266a4e40806ef137cd947ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voyiage asset synty/batiment/SM_Bld_Shop_04.prefab using Guid(637f2c8f6266a4e40806ef137cd947ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca8bd08dee8f399da73214aeb4fe54ad') in 0.014629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.114181 seconds.
+  path: Assets/Voyiage asset synty/chambre/SM_Prop_Bed_Single_01.prefab
+  artifactKey: Guid(a2c2208d80d04c9438e2e2fa6f55b980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voyiage asset synty/chambre/SM_Prop_Bed_Single_01.prefab using Guid(a2c2208d80d04c9438e2e2fa6f55b980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '579c2ce195ce0c1ae03c6401dfda4ac7') in 0.012967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Voyiage asset synty/Deco ville/SM_Prop_Cone_01.prefab
+  artifactKey: Guid(2a6eecfc33e999a408532366f8a62774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voyiage asset synty/Deco ville/SM_Prop_Cone_01.prefab using Guid(2a6eecfc33e999a408532366f8a62774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '066cc7508c52d4802b7a63a5c6f06438') in 0.015607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Voyiage asset synty/chambre/SM_Prop_Bookshelf_01.prefab
+  artifactKey: Guid(3740709ea821f5349b5d9aa6128eb4bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voyiage asset synty/chambre/SM_Prop_Bookshelf_01.prefab using Guid(3740709ea821f5349b5d9aa6128eb4bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c3fa6e50ecfca5446ae715094fca68f') in 0.014892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Voyiage asset synty/chambre/bureau/SM_Prop_Desk_01.prefab
+  artifactKey: Guid(5c31e70ad5e805b47b32ee0912bfeaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voyiage asset synty/chambre/bureau/SM_Prop_Desk_01.prefab using Guid(5c31e70ad5e805b47b32ee0912bfeaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29e6e10d8a15e4a5f5db1676af452d58') in 0.015660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Voyiage asset synty/batiment/SM_Prop_ConcreteBag_Stack_03.prefab
+  artifactKey: Guid(b7e4971bb274ddd4f8930a20e0bd9c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voyiage asset synty/batiment/SM_Prop_ConcreteBag_Stack_03.prefab using Guid(b7e4971bb274ddd4f8930a20e0bd9c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a84f8390af9fd245e7e63ca9b8a3bc2') in 0.013359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.392132 seconds.
+  path: Assets/Voyiage asset synty/salle a manger/SM_Prop_DiningChair_02.prefab
+  artifactKey: Guid(bb8ae027a23967c43962bc30899de855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voyiage asset synty/salle a manger/SM_Prop_DiningChair_02.prefab using Guid(bb8ae027a23967c43962bc30899de855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52441d0352d5daf92e1ac4aaa0061965') in 0.014216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Voyiage asset synty/cuisine/SM_Prop_Kitchen_Counter_01.prefab
+  artifactKey: Guid(1f026b3bdb2aa484b9f58e6afd00482b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voyiage asset synty/cuisine/SM_Prop_Kitchen_Counter_01.prefab using Guid(1f026b3bdb2aa484b9f58e6afd00482b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6cec09e9f7930c44fdbf407d730b6f9') in 0.015275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Voyiage asset synty/cuisine/SM_Prop_Kitchen_CounterSink_01 1.prefab
+  artifactKey: Guid(e8b9484c49a437c4f8df2ed368718868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voyiage asset synty/cuisine/SM_Prop_Kitchen_CounterSink_01 1.prefab using Guid(e8b9484c49a437c4f8df2ed368718868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '886ced2a59e67329a3cca78a4d6ab4a5') in 0.015643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004383 seconds.
+  path: Assets/Voyiage asset synty/batiment/SM_Prop_Plank_02.prefab
+  artifactKey: Guid(d0d1c9e224c265d4ea1e5f54f752f6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voyiage asset synty/batiment/SM_Prop_Plank_02.prefab using Guid(d0d1c9e224c265d4ea1e5f54f752f6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e605debcafffe152ac90f9c1d97063c') in 0.016011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Voyiage asset synty/batiment/SM_Prop_Shipping_Container_Small_01 (3).prefab
+  artifactKey: Guid(2f851afa84e4b294888ebce5333afd54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voyiage asset synty/batiment/SM_Prop_Shipping_Container_Small_01 (3).prefab using Guid(2f851afa84e4b294888ebce5333afd54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '625f1774351cceef447435673f0902a5') in 0.014890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Voyiage asset synty/batiment/SM_Prop_Shipping_Container_Small_01 (2).prefab
+  artifactKey: Guid(5b9d11eee3f2e874aa7ae32bd29f6827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voyiage asset synty/batiment/SM_Prop_Shipping_Container_Small_01 (2).prefab using Guid(5b9d11eee3f2e874aa7ae32bd29f6827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '677fdee0ff11ec62ef1ca496c5477b29') in 0.014544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.314254 seconds.
+  path: Assets/Voyiage asset synty/batiment/Stairs_650_400_300_Prefab.prefab
+  artifactKey: Guid(64c7e5e91ca90a04d822d9ed087e311b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voyiage asset synty/batiment/Stairs_650_400_300_Prefab.prefab using Guid(64c7e5e91ca90a04d822d9ed087e311b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10ee8b176b53f47424d54fa98fd28042') in 0.018160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 1.prefab
+  artifactKey: Guid(a6e39ced0ea046bcb636c3f0b2e2a745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 1.prefab using Guid(a6e39ced0ea046bcb636c3f0b2e2a745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9201f6d5e6237be9945d83949768ca') in 0.041660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Environment/Prefabs/Wall_Prefab.prefab
+  artifactKey: Guid(9eb847ab97b24024588682c8601254cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Prefabs/Wall_Prefab.prefab using Guid(9eb847ab97b24024588682c8601254cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6117cf36595609cde02a72b2730ba122') in 0.016723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.452932 seconds.
+  path: Assets/Environment/Prefabs/Box_350x250x200_Prefab.prefab
+  artifactKey: Guid(7b846d8f536f007498c941069487ce81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Prefabs/Box_350x250x200_Prefab.prefab using Guid(7b846d8f536f007498c941069487ce81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93333347bafa142cc680dbc7dc307e8b') in 0.028005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIFloatField.prefab
+  artifactKey: Guid(d8c744701b43c864b88e7f8144e19bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIFloatField.prefab using Guid(d8c744701b43c864b88e7f8144e19bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a69f49284e42e779da3e88725f3ab87') in 0.009679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIEnumField.prefab
+  artifactKey: Guid(988db55689193434fb0b3b89538f978f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUIEnumField.prefab using Guid(988db55689193434fb0b3b89538f978f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '577f6f72e4b707777b4dfee9c4ee1ac6') in 0.009212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 272.796109 seconds.
+  path: Assets/Character/Models/Armature.fbx
+  artifactKey: Guid(36078ab0369161e49a29d349ae3e0739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Models/Armature.fbx using Guid(36078ab0369161e49a29d349ae3e0739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7edef3a08e7e20cc22e8f56b3b24dd03') in 0.072380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.206054 seconds.
+  path: Assets/Voyiage asset synty/chambre/VoyiagePeluche.fbx
+  artifactKey: Guid(b21a4ee63dc389e4db8d2c3a4c96d864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Voyiage asset synty/chambre/VoyiagePeluche.fbx using Guid(b21a4ee63dc389e4db8d2c3a4c96d864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91352403aff2d30450f398630228a261') in 0.018368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010600 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c779f76acd1a5b928fad739a50ef522c') in 0.044634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat
+  artifactKey: Guid(9ad269c99dcf42b7aedefd83dd5a7b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat using Guid(9ad269c99dcf42b7aedefd83dd5a7b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd17daa78807924bdc191f52c0a1bab12') in 0.027005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3abbde3ada7e6699295ec5def31a267f') in 0.027560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce88010abe0ad0b7c99c88fc4273847b') in 0.031333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat
+  artifactKey: Guid(31321ba15b8f8eb4c954353edc038b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat using Guid(31321ba15b8f8eb4c954353edc038b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae21caf5c861a05286f76d012e6928c8') in 0.013756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat
+  artifactKey: Guid(42df1c7856584b6b8db9a509b6b10074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat using Guid(42df1c7856584b6b8db9a509b6b10074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '941c7236840c2d75427527f6d66e33c1') in 0.024442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.322528 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset
+  artifactKey: Guid(0161d805a3764c089bef00bfe00793f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset using Guid(0161d805a3764c089bef00bfe00793f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef7154ed16c140401eaa449f4194c9cf') in 0.017991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023852 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Drop Shadow.mat
+  artifactKey: Guid(b246c4190f4e46ec9352fe15a7b09ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Drop Shadow.mat using Guid(b246c4190f4e46ec9352fe15a7b09ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '034e3f162fdebb1247b90c973f72caa2') in 0.020195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingOcclusion.mat
+  artifactKey: Guid(b51db210fe78df745a372851b3db949e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingOcclusion.mat using Guid(b51db210fe78df745a372851b3db949e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0b2252a0cddcc1179c7a8718443522b') in 0.013276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SimpleLit.mat
+  artifactKey: Guid(6a1143ee683302f4aa628c052723efc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SimpleLit.mat using Guid(6a1143ee683302f4aa628c052723efc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c310dd7ee040e32735db9c106109fa4') in 0.714317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/TerrainLit.mat
+  artifactKey: Guid(594ea882c5a793440b60ff72d896021e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/TerrainLit.mat using Guid(594ea882c5a793440b60ff72d896021e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf97cb6081a0d7195ee2e3c906222b7d') in 0.919652 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
