@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Voyiage.unity
+- path: Assets/Scenes/Plumber_Puzzle_Test.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
